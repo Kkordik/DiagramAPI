@@ -14,6 +14,13 @@ source .venv/bin/activate
 pip install fastapi graphviz uvicorn
 ```
 
+or if on AWS linux
+```bash
+sudo yum install graphviz
+python -m venv .venv
+source .venv/bin/activate
+pip install fastapi graphviz uvicorn
+```
 Run the code:
 ```
 uvicorn main:app --reload
