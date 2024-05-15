@@ -9,7 +9,7 @@ https://hf.co/chat/assistant/65e71408a6654bcc68624d8d
 Install dependencies:
 ```bash
 sudo apt install graphviz
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
 pip install fastapi graphviz uvicorn
 ```
@@ -17,7 +17,7 @@ pip install fastapi graphviz uvicorn
 or if on AWS linux
 ```bash
 sudo yum install graphviz
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
 pip install fastapi graphviz uvicorn
 ```
